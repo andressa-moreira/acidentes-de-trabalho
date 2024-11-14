@@ -1,3 +1,10 @@
+:root {
+    --bg-color: #358057;
+    --primary-color: #DDDDDD;
+    --secondary-color: #F05454;
+    --font: "Nunito Sans", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
