@@ -4,16 +4,9 @@
     box-sizing: border-box;
 }
 
-:root {
-    --bg-color: #59c288;
-    --primary-color: #DDDDDD;
-    --secondary-color: #F05454;
-    --font: "Nunito Sans", sans-serif;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #328d26;
     color: #333;
     line-height: 1.6;
 }
