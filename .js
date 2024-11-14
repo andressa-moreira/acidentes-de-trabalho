@@ -1,3 +1,4 @@
+// Captura o formulário de contato
 document.getElementById("form-contato").addEventListener("submit", function(event) {
     event.preventDefault();
     
@@ -11,4 +12,10 @@ document.getElementById("form-contato").addEventListener("submit", function(even
     } else {
         alert("Por favor, preencha todos os campos.");
     }
+});
+
+// Captura o seletor de cor e aplica a cor de fundo à página
+document.getElementById("cor-fundo").addEventListener("input", function() {
+    const corEscolhida = this.value;
+    document.body.style.backgroundColor = corEscolhida;
 });
