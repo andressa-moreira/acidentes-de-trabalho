@@ -1,9 +1,14 @@
-// Função para exibir as estatísticas ao clicar no botão
-function mostrarEstatisticas() {
-    var estatisticasDiv = document.getElementById("estatisticas-dados");
-    if (estatisticasDiv.style.display === "none") {
-        estatisticasDiv.style.display = "block";
+document.getElementById("form-contato").addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    const nome = document.getElementById("nome").value;
+    const email = document.getElementById("email").value;
+    const mensagem = document.getElementById("mensagem").value;
+    
+    if (nome && email && mensagem) {
+        alert("Mensagem enviada com sucesso!");
+        document.getElementById("form-contato").reset();
     } else {
-        estatisticasDiv.style.display = "none";
+        alert("Por favor, preencha todos os campos.");
     }
-}
+});
