@@ -6,14 +6,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #328d26;
+    background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
 }
 
 header {
     background-color: #005f6b;
-    color: rgb(55, 201, 87);
+    color: white;
     padding: 20px;
     text-align: center;
 }
